@@ -8,6 +8,10 @@ router.get('/',(req,res) =>{
         id:2,
         name:"Mobile",
         price:25000
+    },{
+        id:3,
+        name:"Watch",
+        price:12000
     }])
 })
 module.exports = router;
